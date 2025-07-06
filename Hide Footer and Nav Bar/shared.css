@@ -1,0 +1,11 @@
+#Footer {
+    display: var(--hide-footer) !important;
+}
+
+.header_Header_1E_SL::before {
+	display: var(--hide-nav) !important;
+}
+
+.header_Header_1E_SL.header_OverrideHeaderBackground_MS2nB.gpfocuswithin::before {
+	display: var(--hide-nav) !important;
+}

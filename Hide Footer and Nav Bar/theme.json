@@ -1,0 +1,48 @@
+{
+  "name": "Hide Footer and Nav Bar",
+  "version": "v1.0",
+  "author": "RConsis",
+  "manifest_version": 9,
+  "id": "jf743njf7-sg43-gg44-dfg4-srg4gee",
+  "inject": {
+    "shared.css": [
+      "bigpicture"
+    ]
+  },
+  "patches": {
+    "Hide Footer": {
+      "type": "checkbox",
+      "values": {
+        "No": {
+          "--hide-footer": [
+            "flex",
+            "bigpicture"
+          ]
+        },
+        "Yes": {
+          "--hide-footer": [
+            "none",
+            "bigpicture"
+          ]
+        }
+      }
+    },
+    "Hide Navigation Bar": {
+      "type": "checkbox",
+      "values": {
+        "No": {
+          "--hide-nav": [
+            "flex",
+            "bigpicture"
+          ]
+        },
+        "Yes": {
+          "--hide-nav": [
+            "none",
+            "bigpicture"
+          ]
+        }
+      }
+    }
+  }
+}
